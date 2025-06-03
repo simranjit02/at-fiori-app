@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>My First Fiori App</title>
+    <script
+      src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+      id="sap-ui-bootstrap"
+      data-sap-ui-theme="sap_horizon_dark"
+      data-sap-ui-libs="sap.m"
+      data-sap-ui-resourceroots='{
+            "sm.dev.tut": "./"
+        }'
+      data-sap-ui-xx-bindingSyntax="complex"
+    ></script>
+    <script>
+      var oCompoContainer = new sap.ui.core.ComponentContainer({
+        name: "sm.dev.tut",
+      });
+      oCompoContainer.placeAt("content");
+    </script>
+  </head>
+  <body class="sapUiBody" id="content"></body>
+</html>
