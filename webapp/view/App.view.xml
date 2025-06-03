@@ -4,5 +4,4 @@
     xmlns="sap.m"
 >
     <App id="app-container" />
-    <Button text="wow" />
 </mvc:View>

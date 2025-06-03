@@ -6,12 +6,24 @@ sap.ui.define(["sap/ui/core/UIComponent"], function (UIComponent) {
       UIComponent.prototype.init.apply(this);
     },
     createContent: function () {
-      var oview1 = sap.ui.view({
+      var oViewApp = sap.ui.view({
         viewName: "sm.dev.tut.view.App",
         type: "XML",
         id: "app-view",
       });
-      return oview1;
+      var oView1 = sap.ui.view({
+        viewName: "sm.dev.tut.view.View1",
+        type: "XML",
+        id: "View1",
+      });
+      var oView2 = sap.ui.view({
+        viewName: "sm.dev.tut.view.View2",
+        type: "XML",
+        id: "View2",
+      });
+      var appCon = oViewApp.byId("app-container");
+      appCon.addPage(oView1).addPage(oView2);
+      return appCon;
     },
   });
 });
