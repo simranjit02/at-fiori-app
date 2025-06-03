@@ -3,5 +3,5 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m"
 >
-<Button text="click me -> 2"/>
+<Button text="click me -> 2" press=".gotoView2"/>
 </mvc:View>

@@ -3,5 +3,9 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
     onInit: function () {
       console.log("View1");
     },
+    gotoView2: function () {
+      var parentCompo = this.getView().getParent();
+      parentCompo.to("View2");
+    },
   });
 });

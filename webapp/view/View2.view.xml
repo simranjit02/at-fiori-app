@@ -3,6 +3,8 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m"
 >
-<Button text="Go Back"/>
-
+    <Button
+        text="Go Back"
+        press=".gotoView1"
+    />
 </mvc:View>
