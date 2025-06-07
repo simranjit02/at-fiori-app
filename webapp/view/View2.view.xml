@@ -3,8 +3,12 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m"
 >
-    <Button
-        text="Go Back"
-        press=".gotoView1"
-    />
+    <Page title="View-2">
+        <HeaderContainer>
+            <Button
+                text="Go Back"
+                press=".gotoView1"
+            />
+        </HeaderContainer>
+    </Page>
 </mvc:View>

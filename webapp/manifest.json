@@ -1,0 +1,50 @@
+{
+  "_version": "1.1.0",
+  "sap.app": {
+    "_version": "1.1.0",
+    "id": "sm.dev.tut",
+    "type": "application",
+    "i18n": "i18n/texts.properties",
+    "title": "{{XTIT_TITLE}}",
+    "description": "{{description}}"
+  },
+  "sap.ui": {
+    "technology": "UI5",
+    "deviceTypes": {
+      "desktop": true,
+      "tablet": true,
+      "phone": false
+    },
+    "supportedThemes": ["sap_horizon_hcb", "sap_horizon", "sap_horizon_dark"]
+  },
+  "sap.ui5": {
+    "_version": "1.136.0",
+    "dependencies": {
+      "minUI5Version": "1.36.1",
+      "libs": {
+        "sap.ui.core": {
+          "minVersion": "1.36.1",
+          "lazy": false
+        },
+        "sap.ca.ui": {
+          "minVersion": "1.36.1",
+          "lazy": false
+        },
+        "sap.m": {
+          "minVersion": "1.36.1",
+          "lazy": false
+        }
+      }
+    },
+    "models": {
+      "i18n": {
+        "type": "sap.ui.model.resource.ResourceModel",
+        "uri": "i18n/texts.properties"
+      },
+      "fruitData": {
+        "type": "sap.ui.model.json.JSONModel",
+        "uri": "model/mockData/Fruit.json"
+      }
+    }
+  }
+}

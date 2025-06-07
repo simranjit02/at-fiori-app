@@ -1,0 +1,338 @@
+{
+  "fruits": [
+    {
+      "name": "Apple",
+      "color": "Red",
+      "taste": "neutral",
+      "size": "medium",
+      "price": 1.5,
+      "currency": "USD",
+      "availabilityStatus": "available",
+      "healthBenefit": "Rich in fiber and antioxidants",
+      "season": "Autumn",
+      "image": "https://waapple.org/wp-content/uploads/2021/06/Variety_Cosmic-Crisp-transparent-300x300.png"
+    },
+    {
+      "name": "Banana",
+      "color": "Yellow",
+      "taste": "alkaline",
+      "size": "medium",
+      "price": 0.5,
+      "currency": "USD",
+      "availabilityStatus": "available",
+      "healthBenefit": "High in potassium",
+      "season": "All year",
+      "image": "https://dtgxwmigmg3gc.cloudfront.net/imagery/assets/derivations/icon/512/512/true/eyJpZCI6IjQwMDBkOWQxODAzNTQzOWIzNTRkMTM0Yzg0NzZhNjFiIiwic3RvcmFnZSI6InB1YmxpY19zdG9yZSJ9?signature=1f9ff610dcf16db66520535b5486ac743ef10be7766d32b1f02c8cd959b31703"
+    },
+    {
+      "name": "Orange",
+      "color": "Orange",
+      "taste": "citrus",
+      "size": "medium",
+      "price": 0.7,
+      "currency": "USD",
+      "availabilityStatus": "available",
+      "healthBenefit": "High in Vitamin C",
+      "season": "Winter",
+      "image": "https://static.vecteezy.com/system/resources/previews/048/560/411/non_2x/studio-shot-of-fresh-natural-orange-isolated-on-a-transparent-background-png.png"
+    },
+    {
+      "name": "Lemon",
+      "color": "Yellow",
+      "taste": "citrus",
+      "size": "small",
+      "price": 0.3,
+      "currency": "USD",
+      "availabilityStatus": "available",
+      "healthBenefit": "Boosts immunity",
+      "season": "Summer",
+      "image": "https://mirafoods.ae/cdn/shop/products/Lemon_medium.png?v=1658567729"
+    },
+    {
+      "name": "Mango",
+      "color": "Yellow",
+      "taste": "neutral",
+      "size": "large",
+      "price": 2.0,
+      "currency": "USD",
+      "availabilityStatus": "seasonal",
+      "healthBenefit": "Rich in Vitamin A",
+      "season": "Summer",
+      "image": "https://mon.es/wp-content/uploads/2019/05/MANGO-2.png"
+    },
+    {
+      "name": "Grapes",
+      "color": "Green",
+      "taste": "neutral",
+      "size": "small",
+      "price": 1.2,
+      "currency": "USD",
+      "availabilityStatus": "available",
+      "healthBenefit": "Good for heart health",
+      "season": "Autumn",
+      "image": "https://divineflavor.com/wp-content/uploads/2023/12/Divine-Flavor-Table-Grapes.png"
+    },
+    {
+      "name": "Pineapple",
+      "color": "Brown/Yellow",
+      "taste": "citrus",
+      "size": "large",
+      "price": 3.0,
+      "currency": "USD",
+      "availabilityStatus": "available",
+      "healthBenefit": "Anti-inflammatory properties",
+      "season": "Spring",
+      "image": "https://brandedfruit.com/cdn/shop/products/pineapple.png?v=1545081155"
+    },
+    {
+      "name": "Watermelon",
+      "color": "Green/Red",
+      "taste": "alkaline",
+      "size": "very large",
+      "price": 5.0,
+      "currency": "USD",
+      "availabilityStatus": "seasonal",
+      "healthBenefit": "Hydrating fruit",
+      "season": "Summer",
+      "image": "https://www.millerchemical.com/wp-content/uploads/2021/03/watermelon-1142119394.png"
+    },
+    {
+      "name": "Papaya",
+      "color": "Orange",
+      "taste": "alkaline",
+      "size": "large",
+      "price": 1.8,
+      "currency": "USD",
+      "availabilityStatus": "available",
+      "healthBenefit": "Aids digestion",
+      "season": "Spring",
+      "image": "https://www.millerchemical.com/wp-content/uploads/2021/03/iStock-104638864.png"
+    },
+    {
+      "name": "Kiwi",
+      "color": "Brown/Green",
+      "taste": "neutral",
+      "size": "small",
+      "price": 1.0,
+      "currency": "USD",
+      "availabilityStatus": "available",
+      "healthBenefit": "Boosts immunity",
+      "season": "Winter",
+      "image": "https://www.theproducemoms.com/wp-content/uploads/2022/01/kiwi.png"
+    },
+    {
+      "name": "Strawberry",
+      "color": "Red",
+      "taste": "neutral",
+      "size": "small",
+      "price": 2.5,
+      "currency": "USD",
+      "availabilityStatus": "seasonal",
+      "healthBenefit": "Rich in antioxidants",
+      "season": "Spring",
+      "image": "https://www.kenshodaily.com/cdn/shop/products/Strawberry.png?v=1672742952"
+    },
+    {
+      "name": "Guava",
+      "color": "Green",
+      "taste": "alkaline",
+      "size": "medium",
+      "price": 0.8,
+      "currency": "USD",
+      "availabilityStatus": "available",
+      "healthBenefit": "Good for digestion",
+      "season": "Autumn",
+      "image": "https://eastcoastbeverages.com.au/wp-content/uploads/pngimg.com-guava_PNG18.png"
+    },
+    {
+      "name": "Blueberry",
+      "color": "Blue",
+      "taste": "neutral",
+      "size": "small",
+      "price": 3.5,
+      "currency": "USD",
+      "availabilityStatus": "available",
+      "healthBenefit": "Supports brain health",
+      "season": "Summer",
+      "image": "https://seedlefarms.com/wp-content/uploads/2021/04/Blueberries-2.png"
+    },
+    {
+      "name": "Pomegranate",
+      "color": "Red",
+      "taste": "neutral",
+      "size": "medium",
+      "price": 2.0,
+      "currency": "USD",
+      "availabilityStatus": "available",
+      "healthBenefit": "Boosts hemoglobin",
+      "season": "Autumn",
+      "image": "https://www.orgpick.com/cdn/shop/products/pomegranate.png?v=1541589453"
+    },
+    {
+      "name": "Cherry",
+      "color": "Red",
+      "taste": "neutral",
+      "size": "small",
+      "price": 2.2,
+      "currency": "USD",
+      "availabilityStatus": "seasonal",
+      "healthBenefit": "Good for sleep",
+      "season": "Spring",
+      "image": "https://www.bbassets.com/media/uploads/p/xl/30000998_17-fresho-cherry.jpg"
+    }
+  ],
+  "suppliers": [
+    {
+      "name": "Fruit World",
+      "sinceWhen": "2001",
+      "contactNo": "+1234567890",
+      "person": "John Doe",
+      "noOfStores": 15,
+      "speciality": ["organic", "local produce"],
+      "city": "Los Angeles"
+    },
+    {
+      "name": "Fresh Farm Produce",
+      "sinceWhen": "1998",
+      "contactNo": "+1987654321",
+      "person": "Emma Green",
+      "noOfStores": 12,
+      "speciality": ["tropical fruits", "bulk orders"],
+      "city": "Miami"
+    },
+    {
+      "name": "Nature’s Basket",
+      "sinceWhen": "2010",
+      "contactNo": "+1123456789",
+      "person": "Alex Brown",
+      "noOfStores": 20,
+      "speciality": ["rare fruits", "seasonal fruits"],
+      "city": "New York"
+    },
+    {
+      "name": "Urban Harvest",
+      "sinceWhen": "2015",
+      "contactNo": "+1012345678",
+      "person": "Sophia Lane",
+      "noOfStores": 10,
+      "speciality": ["local farms", "organic"],
+      "city": "Austin"
+    },
+    {
+      "name": "Green Basket",
+      "sinceWhen": "2005",
+      "contactNo": "+1987098765",
+      "person": "Liam Smith",
+      "noOfStores": 8,
+      "speciality": ["certified organic", "juicy fruits"],
+      "city": "San Diego"
+    },
+    {
+      "name": "Farm2Home",
+      "sinceWhen": "2012",
+      "contactNo": "+1999888777",
+      "person": "Olivia West",
+      "noOfStores": 6,
+      "speciality": ["subscription service", "local"],
+      "city": "Seattle"
+    },
+    {
+      "name": "Daily Harvesters",
+      "sinceWhen": "2008",
+      "contactNo": "+1234432112",
+      "person": "Ethan Hall",
+      "noOfStores": 18,
+      "speciality": ["fast delivery", "organic only"],
+      "city": "Chicago"
+    },
+    {
+      "name": "Fruit Junction",
+      "sinceWhen": "2011",
+      "contactNo": "+1112223334",
+      "person": "Noah Carter",
+      "noOfStores": 11,
+      "speciality": ["mixed baskets", "budget friendly"],
+      "city": "Denver"
+    },
+    {
+      "name": "Orchard Fresh",
+      "sinceWhen": "2003",
+      "contactNo": "+1444555666",
+      "person": "Mia Clarke",
+      "noOfStores": 9,
+      "speciality": ["hand-picked", "seasonal fruits"],
+      "city": "San Francisco"
+    },
+    {
+      "name": "Fruit Express",
+      "sinceWhen": "2000",
+      "contactNo": "+1222333444",
+      "person": "James Stone",
+      "noOfStores": 13,
+      "speciality": ["fast shipping", "imported fruits"],
+      "city": "Houston"
+    }
+  ],
+  "cities": [
+    {
+      "cityName": "Los Angeles",
+      "state": "California",
+      "population": 4000000,
+      "famousFor": "Hollywood, Beaches"
+    },
+    {
+      "cityName": "New York",
+      "state": "New York",
+      "population": 8400000,
+      "famousFor": "Times Square, Finance"
+    },
+    {
+      "cityName": "Chicago",
+      "state": "Illinois",
+      "population": 2700000,
+      "famousFor": "Architecture, Deep Dish Pizza"
+    },
+    {
+      "cityName": "Miami",
+      "state": "Florida",
+      "population": 470000,
+      "famousFor": "Beaches, Nightlife"
+    },
+    {
+      "cityName": "Austin",
+      "state": "Texas",
+      "population": 1000000,
+      "famousFor": "Live Music, Startups"
+    },
+    {
+      "cityName": "San Francisco",
+      "state": "California",
+      "population": 870000,
+      "famousFor": "Golden Gate Bridge, Tech"
+    },
+    {
+      "cityName": "Houston",
+      "state": "Texas",
+      "population": 2300000,
+      "famousFor": "Space Center, Oil Industry"
+    },
+    {
+      "cityName": "Seattle",
+      "state": "Washington",
+      "population": 740000,
+      "famousFor": "Coffee, Tech"
+    },
+    {
+      "cityName": "Denver",
+      "state": "Colorado",
+      "population": 720000,
+      "famousFor": "Mountains, Ski Resorts"
+    },
+    {
+      "cityName": "San Diego",
+      "state": "California",
+      "population": 1400000,
+      "famousFor": "Zoo, Beaches"
+    }
+  ]
+}

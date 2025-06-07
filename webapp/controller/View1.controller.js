@@ -7,5 +7,8 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function (Controller) {
       var parentCompo = this.getView().getParent();
       parentCompo.to("View2");
     },
+    filterFruit: function(){
+      
+    }
   });
 });

@@ -3,5 +3,29 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m"
 >
-<Button text="click me -> 2" press=".gotoView2"/>
+    <Page title="{i18n>XTIT_TITLE}">
+        <HeaderContainer />
+        <SearchField
+            width="50%"
+            search=".filterFruit"
+            id="searchFruit"
+        />
+        <List
+            width="50%"
+            items="{fruitData>/fruits}"
+        >
+            <items>
+                <ObjectListItem
+                    type="Navigation"
+                    press=".gotoView2"
+                    title="{fruitData>name}"
+                    intro="{fruitData>taste}"
+                    number="{fruitData>price}"
+                    numberUnit="{fruitData>currency}"
+                    icon="{fruitData>image}"
+                    iconDensityAware="false"
+                />
+            </items>
+        </List>
+    </Page>
 </mvc:View>
