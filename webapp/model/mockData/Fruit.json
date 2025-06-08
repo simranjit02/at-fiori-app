@@ -13,18 +13,6 @@
       "image": "https://waapple.org/wp-content/uploads/2021/06/Variety_Cosmic-Crisp-transparent-300x300.png"
     },
     {
-      "name": "Banana",
-      "color": "Yellow",
-      "taste": "alkaline",
-      "size": "medium",
-      "price": 0.5,
-      "currency": "USD",
-      "availabilityStatus": "available",
-      "healthBenefit": "High in potassium",
-      "season": "All year",
-      "image": "https://dtgxwmigmg3gc.cloudfront.net/imagery/assets/derivations/icon/512/512/true/eyJpZCI6IjQwMDBkOWQxODAzNTQzOWIzNTRkMTM0Yzg0NzZhNjFiIiwic3RvcmFnZSI6InB1YmxpY19zdG9yZSJ9?signature=1f9ff610dcf16db66520535b5486ac743ef10be7766d32b1f02c8cd959b31703"
-    },
-    {
       "name": "Orange",
       "color": "Orange",
       "taste": "citrus",
@@ -35,6 +23,18 @@
       "healthBenefit": "High in Vitamin C",
       "season": "Winter",
       "image": "https://static.vecteezy.com/system/resources/previews/048/560/411/non_2x/studio-shot-of-fresh-natural-orange-isolated-on-a-transparent-background-png.png"
+    },
+    {
+      "name": "Banana",
+      "color": "Yellow",
+      "taste": "alkaline",
+      "size": "medium",
+      "price": 0.5,
+      "currency": "USD",
+      "availabilityStatus": "available",
+      "healthBenefit": "High in potassium",
+      "season": "All year",
+      "image": "https://dtgxwmigmg3gc.cloudfront.net/imagery/assets/derivations/icon/512/512/true/eyJpZCI6IjQwMDBkOWQxODAzNTQzOWIzNTRkMTM0Yzg0NzZhNjFiIiwic3RvcmFnZSI6InB1YmxpY19zdG9yZSJ9?signature=1f9ff610dcf16db66520535b5486ac743ef10be7766d32b1f02c8cd959b31703"
     },
     {
       "name": "Lemon",

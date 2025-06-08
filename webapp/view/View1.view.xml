@@ -7,12 +7,18 @@
         <HeaderContainer />
         <SearchField
             width="50%"
-            search=".filterFruit"
+            liveChange="filterFruit"
             id="searchFruit"
         />
         <List
             width="50%"
-            items="{fruitData>/fruits}"
+            items="{
+            path:'fruitData>/fruits',
+            sorter: {
+            path:'name'
+            }
+            }"
+            id="idFruitList"
         >
             <items>
                 <ObjectListItem
