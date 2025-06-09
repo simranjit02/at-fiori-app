@@ -6,12 +6,10 @@
     <Page title="{i18n>XTIT_TITLE}">
         <HeaderContainer />
         <SearchField
-            width="50%"
             liveChange="filterFruit"
             id="searchFruit"
         />
         <List
-            width="50%"
             items="{
             path:'fruitData>/fruits',
             sorter: {
@@ -19,11 +17,13 @@
             }
             }"
             id="idFruitList"
+            itemPress="gotoView2"
+            mode="Delete"
+            delete="onDelete"
         >
             <items>
                 <ObjectListItem
                     type="Navigation"
-                    press=".gotoView2"
                     title="{fruitData>name}"
                     intro="{fruitData>taste}"
                     number="{fruitData>price}"

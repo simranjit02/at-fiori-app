@@ -22,7 +22,11 @@ sap.ui.define(
         });
         var oList = this.getView().byId("idFruitList");
         oList.getBinding("items").filter(masterFilter);
-        console.log(aFilter);
+      },
+      onDelete: function (oEvent) {
+        var delItem = oEvent.getParameter("listItem");
+        var oList = oEvent.getSource();
+        oList.removeItem(delItem);
       },
     });
   }
