@@ -24,7 +24,7 @@ sap.ui.define(["sap/ui/core/UIComponent"], function (UIComponent) {
         id: "View2",
       });
       var appCon = oViewApp.byId("app-container");
-      appCon.addPage(oView1).addPage(oView2);
+      appCon.addMasterPage(oView1).addDetailPage(oView2);
       return appCon;
     },
   });
